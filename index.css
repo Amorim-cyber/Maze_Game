@@ -1,0 +1,55 @@
+html, body, .main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: var(--background-color);
+    font-family:'Segoe UI',  sans-serif;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.maze{
+    padding:0;
+    margin: 0;
+    width:600px;
+    height:600px;
+    display: flex;
+    flex-direction: column;
+}
+
+.rowBlock{
+    border-radius: 2px;
+    display: flex;
+    flex-direction: row;
+    padding:0;
+    margin: 0;
+    width:100%;
+    height:10%;
+}
+
+.columnBlock{
+    padding:0;
+    margin: 0;
+    width:10%;
+    height:100%;
+}
+
+#el00,#el09,#el90,#el99{
+    background-color: black;
+}
+
+div.char{
+    margin:0;
+    padding:0;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
